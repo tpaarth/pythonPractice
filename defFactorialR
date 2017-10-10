@@ -1,0 +1,8 @@
+def factR(n):
+  if n==0 or n==1:
+    return 1
+  else:
+    return n*factR(n-1)
+
+b=factR(10)
+print(b)
